@@ -1,0 +1,11 @@
+.modal {
+  @apply absolute left-1/2 top-1/2 -z-20 mt-[-40px] w-[80%] max-w-md -translate-x-1/2 -translate-y-1/2 rounded bg-white opacity-0 transition-all duration-300;
+}
+
+.modal.show {
+  @apply z-20 mt-0 opacity-100;
+}
+
+.backdrop {
+  @apply absolute bottom-0 left-0 right-0 top-0 z-10 h-full w-full bg-dark-text opacity-50;
+}
